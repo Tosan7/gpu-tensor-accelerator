@@ -1,0 +1,31 @@
+# Build outputs
+build/
+bin/
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.pytest_cache/
+
+# Profiler & tracing outputs
+*.nsys-rep
+*.sqlite
+profile_stats.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp

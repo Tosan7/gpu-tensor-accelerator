@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-11T18:18:40Z",
+  "fused_operator_benchmark": {
+    "tensor_shape": [
+      16,
+      512,
+      4096
+    ],
+    "tensor_mb": 128.0,
+    "unfused_latency_ms": 425.53,
+    "fused_latency_ms": 444.65,
+    "fusion_speedup": 0.96,
+    "effective_bandwidth_gb_s": 0.6
+  },
+  "gemm_throughput_benchmark": [
+    {
+      "dimension": "512x512x512",
+      "latency_ms": 1.82,
+      "throughput_gflops": 147.89
+    },
+    {
+      "dimension": "1024x1024x1024",
+      "latency_ms": 10.5,
+      "throughput_gflops": 204.49
+    },
+    {
+      "dimension": "2048x2048x2048",
+      "latency_ms": 76.91,
+      "throughput_gflops": 223.39
+    }
+  ]
+}
